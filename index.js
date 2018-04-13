@@ -21,7 +21,7 @@ function currentLine(katzDeliLine) {
       if (n > 0) {
         returnString = returnString + ', ';
       }
-      returnString = returnString + '${n+1}. ${katzDeliLine[n]}';
+      returnString = returnString + `${n+1}. ${katzDeliLine[n]}`;
     }
   } else {
     returnString = 'The line is currently empty.';
